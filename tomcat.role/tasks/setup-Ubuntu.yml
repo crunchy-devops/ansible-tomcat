@@ -1,0 +1,6 @@
+---
+- name: Check if tomcat is installed
+  apt:
+    name: "{{ tomcat_packages }}"
+    state: present
+    

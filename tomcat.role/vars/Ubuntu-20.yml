@@ -1,0 +1,6 @@
+---
+tomcat_version: "9"
+# variables pour la version 9 
+tomcat_packages: tomcat
+  # list des packages
+tomcat_library:
