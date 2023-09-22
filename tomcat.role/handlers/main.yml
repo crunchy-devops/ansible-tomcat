@@ -1,2 +1,7 @@
 ---
 # handlers file for tomcat.role
+- name: restart tomcat 
+  service:
+    name: tomcat 
+    state: restarted
+    sleep: 5

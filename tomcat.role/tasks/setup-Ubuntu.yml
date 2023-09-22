@@ -3,4 +3,8 @@
   apt:
     name: "{{ tomcat_packages }}"
     state: present
-    
+- name: users and both_password
+  template:
+    src: tomcat-users.xml
+    dest: /etc/tomcat9/tomcat-users.xml
+  notify: restart tomcat

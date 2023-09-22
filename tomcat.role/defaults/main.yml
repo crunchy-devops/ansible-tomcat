@@ -1,2 +1,5 @@
 ---
 # defaults file for tomcat.role
+tomcat_password: 12345678
+both_password: qwerty
+role1_password: zxcvbn
