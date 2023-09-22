@@ -1,6 +1,6 @@
 ---
 - name: use a dedicated Ansible postgresql role
-  hosts: all
+  hosts: all, !local
   become: true
   roles:
     - { role: tomcat.role }
